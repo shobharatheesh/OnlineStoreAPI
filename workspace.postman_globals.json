@@ -1,0 +1,27 @@
+{
+	"id": "81a2d231-c8cb-4a30-8810-0358d2e7ce62",
+	"values": [
+		{
+			"key": "base_url",
+			"value": "https://fakestoreapi.com/",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "username",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "password",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2025-02-12T09:29:11.120Z",
+	"_postman_exported_using": "Postman/11.32.2"
+}

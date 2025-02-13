@@ -1,0 +1,17 @@
+newman run ProductsMiniProject.postman_collection.json -d product_data.json -g workspace.postman_globals.json
+
+newman run ProductsMiniProject.postman_collection.json -d product_data.json -g workspace.postman_globals.json -r htmlextra
+
+
+
+
+newman run ProductsMiniProject.postman_collection.json -d products_data.csv -g workspace.postman_globals.json
+
+newman run ProductsMiniProject.postman_collection.json -d products_data.csv -g workspace.postman_globals.json -r htmlextra
+
+
+
+newman run ProductsMiniProject.postman_collection.json -d product_data.json -g workspace.postman_globals.json -r htmlextra --reporter-htmlextraexport ./results/report.html --reporter-htmlextra-browserTitle "Store API Test Report" --reporter-htmlextra-title "Store API Test Summary"
+
+
+
